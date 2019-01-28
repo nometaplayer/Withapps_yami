@@ -6,12 +6,9 @@ import { HomePage } from '../home/home.page';
   templateUrl: './intro.page.html',
   styleUrls: ['./intro.page.scss'],
 })
-export class IntroPage implements OnInit {
+export class IntroPage  {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) { }
-
-  ngOnInit() {
-  }
 
   goToHome() {
     this.navCtrl.setRoot(HomePage);
