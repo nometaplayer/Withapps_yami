@@ -9,8 +9,12 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'cgu', loadChildren: './cgu/cgu.module#CguPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
+
   { path: 'parametre', loadChildren: './parametre/parametre.module#ParametrePageModule' },
   { path: 'galerie', loadChildren: './galerie/galerie.module#GaleriePageModule' },
+
+  { path: 'parametres', loadChildren: './parametres/parametres.module#ParametresPageModule' },
+
 ];
 
 @NgModule({
