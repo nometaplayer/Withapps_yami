@@ -14,6 +14,12 @@ const routes: Routes = [
   { path: 'galerie', loadChildren: './galerie/galerie.module#GaleriePageModule' },
 
   { path: 'parametres', loadChildren: './parametres/parametres.module#ParametresPageModule' },
+  { path: 'galerie', loadChildren: './galerie/galerie.module#GaleriePageModule' },
+  { path: 'flyer', loadChildren: './flyer/flyer.module#FlyerPageModule' },
+  { path: 'conseils', loadChildren: './conseils/conseils.module#ConseilsPageModule' },
+  { path: 'accueil', loadChildren: './accueil/accueil.module#AccueilPageModule' },
+  { path: 'profil', loadChildren: './profil/profil.module#ProfilPageModule' },
+  { path: 'nutristats', loadChildren: './nutristats/nutristats.module#NutristatsPageModule' },
 
 ];
 
