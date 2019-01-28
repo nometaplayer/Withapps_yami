@@ -9,11 +9,7 @@ const routes: Routes = [
   { path: 'login', loadChildren: '../pages/login/login.module#LoginPageModule' },
   { path: 'cgu', loadChildren: '../pages/cgu/cgu.module#CguPageModule' },
   { path: 'contact', loadChildren: '../pages/contact/contact.module#ContactPageModule' },
-
   { path: 'parametre', loadChildren: '../pages/parametre/parametre.module#ParametrePageModule' },
-  { path: 'galerie', loadChildren: '../pages/galerie/galerie.module#GaleriePageModule' },
-
-  { path: 'parametres', loadChildren: '../pages/parametres/parametres.module#ParametresPageModule' },
   { path: 'galerie', loadChildren: '../pages/galerie/galerie.module#GaleriePageModule' },
   { path: 'flyer', loadChildren: '../pages/flyer/flyer.module#FlyerPageModule' },
   { path: 'conseils', loadChildren: '../pages/conseils/conseils.module#ConseilsPageModule' },
