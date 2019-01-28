@@ -1,9 +1,43 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>intro</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-slides pager="true">
 
-<ion-content padding>
+  <ion-slide>
+    <div class="text-slide">Glissez pour changer de vue</div>
+    <img src="assets/imgs/slide1.jpg" />
+  </ion-slide>
 
-</ion-content>
+  <ion-slide>
+    <div class="text-slide">Partenaires E.Leclerc Olonne c'est...</div>
+    <img src="assets/imgs/slide2.jpg" />
+  </ion-slide>
+
+  <ion-slide>
+    <div class="text-slide">Des dizaines d'avantages pour vos loisirs</div>
+    <img src="assets/imgs/slide3.jpg" />
+  </ion-slide>
+
+  <ion-slide>
+    <div class="text-slide">Sur présentation de votre carte E.leclerc</div>
+    <img src="assets/imgs/slide4.jpg" />
+  </ion-slide>
+
+  <ion-slide>
+    <div class="text-slide">Selectionnez vos activités préférées</div>
+    <img src="assets/imgs/slide5.jpg" />
+  </ion-slide>
+
+
+  <ion-slide>
+    <div class="text-slide">Et recevez nos alertes pour être informé des offres</div>
+    <ion-row>
+      <ion-col>
+        <img src="assets/imgs/slide6.jpg" />
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button color="light" (click)="goToHome()">Accéder à l'application</button>
+      </ion-col>
+    </ion-row>
+  </ion-slide>
+
+</ion-slides>

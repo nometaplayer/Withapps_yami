@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home.page';
 @Component({
   selector: 'app-intro',
   templateUrl: './intro.page.html',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroPage implements OnInit {
 
-  constructor() { }
+  constructor(public navCtrl: NavController, public navParams: NavParams) { }
 
   ngOnInit() {
+  }
+
+  goToHome() {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }
